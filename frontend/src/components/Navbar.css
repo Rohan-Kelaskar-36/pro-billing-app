@@ -1,0 +1,44 @@
+
+.active{
+  color: #F1B24A;
+}
+nav .title{
+  font-size: 1.5 rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+nav ul li{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li button {
+  display: block;
+  color: white;
+  padding: 0.5rem;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover{
+  background-color: #4D774E;
+}
+
+nav ul li button:not(.active):hover{
+  background-color: #4D774E;
+}
+
+div .dropDown{
+  background-color: #224a2d;
+}
